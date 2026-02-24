@@ -1,0 +1,67 @@
+﻿body{background:#a779c5
+;}
+
+
+.contenedor
+{ 
+
+
+	display: grid;
+  /* Crea 3 columnas de igual tamaño */
+  grid-template-columns: repeat(3, 1fr);
+  /* Espacio entre celdas */
+  gap: 10px;
+ width: 959px;
+margin: 35px;
+background:#305ec5;}
+header h1 { text-align: center;
+padding-top:10px;
+padding-bottom:10px;
+border: 4px solid black;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+color:#e6f0ef
+;
+background-color: #a779c5; padding: 20px; color: black; border-radius: 20px;
+nav ul
+{
+    float: right;
+    margin-top: 30px;
+}
+nav li { display: inline-block;
+    /*margin-bottom: 20px;
+    margin-top: 20px;*/
+    color: black;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; /* Opcional: redondea esquinas */
+    transition: box-shadow 0.5s ease; /* Opcional: animación */ }} 
+	
+nav a { 
+  gap: 10px;
+
+}
+nav a:hover { background-color: blue;
+padding: 10px;} 
+  .feo aside { float: right;
+  display: flex; /* Activa flexbox */
+  align-items: center; /* Centra el texto verticalmente respecto a la imagen */
+  gap: 20px;
+  background-color: #6794f2; color: black; border-radius: 20px; font-family: sans-serif; color: black;}
+.feo2 aside { float: right;
+  display: flex; /* Activa flexbox */
+  align-items: center; /* Centra el texto verticalmente respecto a la imagen */
+  gap: 30px;
+  background-color: float: right;
+  display: flex; /* Activa flexbox */
+  align-items: center; /* Centra el texto verticalmente respecto a la imagen */
+  gap: 80px;
+  background-color: #e594f2
+; padding: 20px; color: black; border-radius: 20px; font-family: sans-serif; color: black;
+margin-top: 20px;}
+
+}
+
+
+	

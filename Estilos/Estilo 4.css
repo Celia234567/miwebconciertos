@@ -1,0 +1,29 @@
+﻿body
+{ background-color: #a03c7c;
+color: black;
+nav ul
+{
+    float: right;
+    margin-top: 30px;
+}
+
+nav li
+{
+    display: inline-block;
+    /*margin-bottom: 20px;
+    margin-top: 20px;*/
+}
+
+nav a
+{
+    color: black;
+    text-decoration: none;
+    padding: 10px;  
+}
+
+nav a:hover { background-color: white;
+padding: 10px;}
+}
+.hi { background-color: pink; padding: 20px; border-radius: 20px;
+   margin-top:30px;} }
+   
